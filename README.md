@@ -244,6 +244,7 @@ default:
 | arguments | args |
 | properties | props |
 | information  | info |
+| configuration | config |
 | maximum | max |
 | minimum | min |
 
