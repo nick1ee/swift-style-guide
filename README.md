@@ -236,6 +236,29 @@ default:
 
 #### DO NOT use abbreviation for naming everything except for some acceptable cases
 
+Note: You should only apply these abbreviations in certain situations, eg: local variables. Never and ever to use them in defining function name.
+
+Prefer
+
+```swift
+
+var args: Arguments
+
+func setUp(configuration config: Configuration) { ... }
+
+```
+
+Rather than
+
+```swift
+
+var args: Args
+
+func setUp(cofig: Config) { ... }
+
+```
+
+
 **Acceptable common abbreviation**
 
 | Origin | Abbreviation  |
